@@ -17,11 +17,12 @@
 }
 
 .sezione1, .sezione2 {
-    height: 300px;
     width: 20%;
-    background-color: #DF73FF;
     float: left;
     margin-top: 1%;
+    /* debug */
+    height: 300px;
+    background-color: #DF73FF;
 
 }
 
@@ -38,7 +39,7 @@
 background-color: #fff;
 }
 
-.articolo1 {
+.articolo1, .articolo2 {
     height: 150px;
     width: 100%;
     background-color: #DF73FF;
@@ -47,10 +48,6 @@ background-color: #fff;
 
 
 .articolo2 {
-    height: 150px;
-    width: 100%;
-    background-color: #DF73FF;
-    float: right;
     margin-top: 20px;
 }
 
