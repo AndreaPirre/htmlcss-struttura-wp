@@ -15,7 +15,7 @@
     display: table;
     clear: both;
 }
-/* le due sezioni laterali */
+/* sezione laterale di sinistra */
 .sezione1 {
     width: 20%;
     float: left;
@@ -35,7 +35,7 @@
     margin: 1% 5% 1% 5%;
 }
 
-/* sfondo trasparente sezione a destra */
+/* sezione laterale di destra */
 .sezione2 {
     width: 20%;
     float: left;
@@ -49,17 +49,19 @@
 .articolo1, .articolo2 {
     height: 150px;
     width: 100%;
-    background-color: #DF73FF;
     float: right;
+    /* debug */
+    background-color: #DF73FF;
 }
-
 
 .articolo2 {
     margin-top: 20px;
 }
+
 /* footer */
 .bloccofooter {
     width: 100%;
     height: 100px;
+    /* debug */
     background-color: #ABCDEF;
 }
