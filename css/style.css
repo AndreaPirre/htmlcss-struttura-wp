@@ -3,6 +3,13 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+.contenitore {
+    width: 80%;
+    margin: auto;    
+}
+
+
 /* intestazione header */
 .intestazione {
     width: 100%;
